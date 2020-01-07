@@ -2,7 +2,7 @@ var express = require("express");
 // var routes = require("./route");
 var app = express();
 
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("listening server at port 3000");
 });
 
